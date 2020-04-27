@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Tic Tac Toe Game
+    </title>
+</head>
+
+<body>
+    <h1>Tic Tac Toe Game</h1>
+    <div class="choose-game-mode" id="choose-game-mode">
+        <button class="game-mode" value="1P">
+          <strong>1 Player</strong>
+        </button>
+        <button class="game-mode" value="2P">
+          <strong>2 Players</strong>
+        </button>
+    </div>
+    <div class="choose-side" id="choose-side">
+        <button class="player-btn" value="X">
+          <strong>X</strong>
+          </button>
+        <button class="player-btn" value="O">
+        <strong>  O</strong>
+        </button>
+    </div>
+    <div class="reset" id="reset-btn"><button><strong>New Game</strong></button></div>
+    <div class="row">
+        <div class="gamefield"></div>
+        <div class="gamefield"></div>
+        <div class="gamefield"></div>
+    </div>
+    <div class="row">
+        <div class="gamefield"></div>
+        <div class="gamefield"></div>
+        <div class="gamefield"></div>
+    </div>
+    <div class="row">
+        <div class="gamefield"></div>
+        <div class="gamefield"></div>
+        <div class="gamefield"></div>
+    </div>
+    <div class="result hide" id="score">RESULT</div>
+    <footer>
+        <p>Coded by Adam Dąbrowski</p>
+    </footer>
+    <script src="logic.js"></script>
+</body>
+
+</html>

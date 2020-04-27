@@ -1,0 +1,91 @@
+.gamefield {
+    max-width: 500px;
+    max-height: 500px;
+    width: 20vmin;
+    height: 20vmin;
+    min-width: 50px;
+    min-height: 50px;
+    background-color: #ba8f34;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15vmin;
+}
+
+.reset{
+  top:0;
+  left: 50vw;
+  display: block;
+  z-index:1;
+}
+
+.result{
+  position: fixed;
+  top: 50vh;
+  z-index: 90;
+  background-color: yellow;
+  color: black;
+  padding: 1em;
+  text-align: center;
+  width: 100%;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+}
+
+.choose-game-mode{
+  display: block;
+  position: fixed;
+  top:0;
+  z-index: 5;
+  height:100%;
+  width: 100%;
+  background-color: #999999;
+  opacity: 1;
+}
+
+.choose-side{
+  display: block;
+  position: fixed;
+  top:0;
+  z-index:10;
+  height: 100%;
+  width:100%;
+  background-color: #333333;
+  opacity: 1;
+  }
+
+.hide{
+  z-index: -2;
+  display: none;
+  opacity:0;
+}
+
+html{
+  text-align: center;
+  background:	linear-gradient(limegreen,transparent),
+	linear-gradient(90deg, skyblue,	transparent),
+	linear-gradient(-90deg, coral, transparent);
+	background-blend-mode: screen;
+  height:100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+button{
+  width: 30vmin;
+  height: 10vmin;
+  margin: 20px;
+  border: 10px solid white;
+  background-color: inherit;
+  font-size: 5vmin;
+  min-height: 100px;
+  min-width: 100px;
+  transition: background-color 0.5s ease-in-out;
+}
+
+button:hover{
+  background-color: white;
+}
