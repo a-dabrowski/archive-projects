@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <h1>SIMON GAME</h1>
+    <div class="main-container">
+        <div class="controls-container">
+            <div class="switch">
+                <input type="checkbox" id="pwr-switch" />
+                <label for="pwr-switch">ON/OFF</label>
+                <h2 class="switch__title">POWER</h2>
+            </div>
+            <div class="switch">
+                <input type="checkbox" id="strict-switch" disabled />
+                <label for="strict-switch">Strict Mode</label>
+                <h2 class="switch__title">STRICT</h2>
+                <!-- <div class="strict"></div> -->
+            </div>
+
+            <div id="round-counter">
+                <h2>Counter</h2>
+                <h2>--</h2>
+            </div>
+        </div>
+
+        <div class="game-buttons">
+            <div>
+                <button id="0" class="game-btn red">RED</button>
+                <button id="1" class="game-btn blue">BLUE</button>
+            </div>
+            <div>
+                <button id="2" class="game-btn green">GREEN</button>
+                <button id="3" class="game-btn yellow">YELLOW</button>
+            </div>
+            <button id="start-button">Start</button>
+        </div>
+
+        <div class="notifier">
+            <p>Placeholder</p>
+        </div>
+    </div>
+    <script src="simon.js"></script>
+</body>
+
+</html>
