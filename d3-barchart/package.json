@@ -1,0 +1,29 @@
+{
+  "name": "d3-barchart",
+  "version": "0.0.5",
+  "description": "Barchart built using D3, fething data from external source",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-dabrowski/d3-barchart.git"
+  },
+  "keywords": [
+    "data",
+    "visualisation"
+  ],
+  "author": "Adam Dąbrowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a-dabrowski/d3-barchart/issues"
+  },
+  "homepage": "https://github.com/a-dabrowski/d3-barchart#readme",
+  "dependencies": {
+    "d3": "^5.4.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  }
+}
