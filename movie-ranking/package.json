@@ -1,0 +1,30 @@
+{
+  "name": "movie-ranking",
+  "version": "1.0.0",
+  "description": "Movie Ranking Web App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-dabrowski/movie-ranking.git"
+  },
+  "keywords": [
+    "movie",
+    "ranking",
+    "data",
+    "visualisation"
+  ],
+  "author": "Adam Dąbrowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a-dabrowski/movie-ranking/issues"
+  },
+  "homepage": "https://github.com/a-dabrowski/movie-ranking#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-strip-comments": "^2.5.2"
+  }
+}
