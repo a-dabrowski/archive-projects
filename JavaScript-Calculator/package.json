@@ -1,0 +1,28 @@
+{
+  "name": "javascript-calculator",
+  "version": "1.0.0",
+  "description": "Web Calculator made with vanilla JS",
+  "main": "javaScript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-dabrowski/JavaScript-Calculator.git"
+  },
+  "keywords": [
+    "calculator",
+    "javascript",
+    "web-app"
+  ],
+  "author": "Adam Dąbrowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a-dabrowski/JavaScript-Calculator/issues"
+  },
+  "homepage": "https://github.com/a-dabrowski/JavaScript-Calculator#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  }
+}

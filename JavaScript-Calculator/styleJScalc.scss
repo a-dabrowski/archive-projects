@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Prompt');
+
+body{
+  background-color: grey;
+  font-family: 'Prompt', sans-serif;
+}
+
+button{
+  width: 4rem;
+  height: 3rem;
+  border-radius: 5px;
+  border-style: none;
+  font-size: 2rem;
+  color: black;
+  background-color: tomato;
+   &:hover{
+    color: red;
+    background-color:  black;
+  }
+  &:active{
+   color: black;
+  background-color: yellow; 
+  }
+ 
+}
+
+.display{
+  height: 2rem;
+  width: 16rem;
+  margin-left: 0.25rem;
+  font-size: 1.5rem;
+  border: solid 1px;
+   background-color: white;
+  padding: 0.25rem;
+  overflow: hidden;
+ 
+}
+
+.casing{
+  background-color: white;
+  padding: 0.5rem;
+  margin: auto;
+  width: 17rem;
+  height: 19rem;
+}
