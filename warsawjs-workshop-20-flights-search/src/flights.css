@@ -1,0 +1,16 @@
+.flights{
+   list-style: none; 
+}
+
+.flights__item{
+ 
+    background: linear-gradient(to right, rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('http://yesofcorsa.com/wp-content/uploads/2017/01/4K-Cat-Wallpaper-Full-HD.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 60px;
+
+}
+.flights__item:nth-child(odd){
+      background-image: linear-gradient(to right, rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('http://yesofcorsa.com/wp-content/uploads/2017/02/4K-Dog-High-Quality-Wallpaper.jpg');
+
+}
