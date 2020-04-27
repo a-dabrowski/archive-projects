@@ -1,0 +1,100 @@
+$button-color:          #FC4445;
+$primary-text-color:   #111111;
+$background-color:        #B6B6B6;
+$background-text-color: rgba(255,255,255,0.8);
+
+html {
+    font-family: Lato;
+    font-size: 30px;
+    text-align: center;
+    background-color: $background-color;
+    color: $primary-text-color;
+}
+h1{
+  font-size: 2rem;
+}
+h1, h3, footer, section{
+  color: $primary-text-color;
+  background-color: $background-text-color;
+  border-radius: 10px;
+}
+
+*{
+  margin: 0.25rem;
+  padding: 0.25rem;
+  box-sizing: border-box;
+}
+
+section{
+  width: 150px;
+}
+button{
+    border-radius: 10px;
+    background-color: $button-color;
+    border-style: solid;
+    height: 1.5rem;
+    border-color: $button-color;
+    width: 150px;
+
+}
+body{
+  display:flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.place {
+    font-size: 1.5rem;
+    display: inline-block;
+    letter-spacing: 0.02rem;
+}
+.clouds {
+    background: url("images/clouds1.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.heavyrain {
+    background: url("images/heavyrain1.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.moderate-rain {
+    background: url("images/moderate-rain1.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.snow {
+    background: url("images/snow1.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.thunderstorm {
+    background: url("images/thunderstorm1.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.sun {
+    background: url("images/sun1.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.clouds {
+    background: url("images/clouds1.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

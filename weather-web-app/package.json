@@ -1,0 +1,28 @@
+{
+  "name": "weather-web-app",
+  "version": "1.0.0",
+  "description": "simple weather app",
+  "main": "mainScript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JesusChryslerSuperstar/weather-web-app.git"
+  },
+  "keywords": [
+    "weather",
+    "API",
+    "FreeCodeCamp"
+  ],
+  "author": "Adam Dabrowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JesusChryslerSuperstar/weather-web-app/issues"
+  },
+  "homepage": "https://github.com/JesusChryslerSuperstar/weather-web-app#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  }
+}
