@@ -1,0 +1,28 @@
+{
+  "name": "request-header-parser",
+  "version": "1.0.0",
+  "description": "Serving basic user's info in JSON format",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-dabrowski/request-header-parser.git"
+  },
+  "keywords": [
+    "node",
+    "webapp",
+    "microservice"
+  ],
+  "author": "Adam Dąbrowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a-dabrowski/request-header-parser/issues"
+  },
+  "homepage": "https://github.com/a-dabrowski/request-header-parser#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
