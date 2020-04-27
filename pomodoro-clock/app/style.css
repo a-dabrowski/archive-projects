@@ -1,0 +1,23 @@
+body {
+    background-color: #111;
+}
+
+button {
+    background-color: #CCC;
+    border: none;
+    width: 10vmax;
+    height: 5vmax;
+    border-radius: 15px;
+    margin: 2vmin;
+}
+
+h1 {
+    color: white;
+}
+
+#pomodoro-clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
