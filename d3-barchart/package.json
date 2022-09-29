@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/a-dabrowski/d3-barchart#readme",
   "dependencies": {
-    "d3": "^5.4.0"
+    "d3": "^7.6.1"
   },
   "devDependencies": {
     "node-sass": "^4.13.1"
