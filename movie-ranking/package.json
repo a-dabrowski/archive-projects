@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/a-dabrowski/movie-ranking#readme",
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-sass": "^4.0.1",
     "gulp-strip-comments": "^2.5.2"
   }
